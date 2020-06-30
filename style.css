@@ -1,0 +1,223 @@
+@import url('https://fonts.googleapis.com/css2?family=Oleo+Script&display=swap');
+
+html, body
+{
+  width: 100%;
+  height: 100%;
+}
+
+.navbar-brand{
+  font-size: 45px;
+}
+.nav-link{
+  font-weight: 600;
+  font-size: small;
+  margin-right: 20px;
+  letter-spacing: 3px;
+}
+
+.navbar-nav .nav-link {
+  color: black;
+}
+
+.nav-item.active .nav-link,
+.nav-item:focus .nav-link,
+.nav-item:hover .nav-link {
+  color: black;
+}
+
+.navbar-brand{
+  font-family: 'Oleo Script', cursive;
+    color: black;
+    font-weight: 800;
+    letter-spacing: 1px;
+    font-size: 35px;
+}
+.navbar-brand:hover{
+color: black;
+}
+
+.navbar-nav .nav-link {
+color: black;
+}
+
+.navbar{
+  background-color: #F9FAF9 ;
+}
+
+.colnav{
+  color: #00897b;
+}
+
+.bottommenu{
+  color: #00897b;
+}
+  
+html,body,header,.view {
+  height: 92%;
+}
+  
+@media (max-width: 740px) {
+  html, 
+  body,
+  header, .view {
+  height: 80%;
+  } 
+}
+
+span{
+  color: #00897b;
+  letter-spacing: 2px;
+}
+
+.font-collection{
+  font-weight: 400;
+}
+
+.body-text{ color: #898A89}
+
+  .about{
+    background-color: white;
+  }
+
+  .ab1{
+    width: 100%;
+    box-shadow: 2px 1px 8px 6px silver;
+  }
+
+  .ab2{
+    margin-top: 30px ;
+    margin-bottom: 30px;
+    box-shadow: 2px 1px 8px 6px silver;
+    width: 100%;
+  }
+
+  .link-about{
+    color: #00897b;
+    font-weight: bold;
+    font-size: 18px;
+  }
+
+  .about-para-txt{
+    padding-left: 60px;
+    color: #4F4F4F;
+    letter-spacing: 0.5px;
+    font-weight: 400;
+  }
+
+  .collection{
+    background-color: #F3F3F3;
+    background-size: cover;
+    
+  }
+
+  .hashtag{
+    font-weight: 500;
+    font-size: 40px;
+    color: black;
+  }
+
+  .alternate{
+    font-weight: 800;
+    letter-spacing: 5px ;
+    color: #00897b;
+    font-size: large;
+  }
+
+  .para-txt{
+    color: #4F4F4F;
+    letter-spacing: 0.5px;
+    font-weight: 400;
+  }
+
+  h5{
+    font-weight: bold;
+    color: black;
+    letter-spacing: 2px;
+    size: 40px;
+  }
+
+
+  .d-grid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-auto-rows: 130px;
+    grid-gap: 15px;
+  }
+
+  .item {
+    position: relative;
+  }
+
+  .item:nth-child(1) {
+    grid-column: 1 / 2;
+    grid-row: 1 / 4;
+  }
+
+  .item:nth-child(2) {
+    grid-column: 2;
+    grid-row: 0 / 3;
+  }
+
+  .item:nth-child(3) {
+    grid-column: 2;
+    grid-row: 2 / 3;
+  }
+
+  .item:nth-child(4) {
+    grid-column: 2;
+    grid-row: 3 / 3;
+  }
+
+  .item a {
+    position: absolute;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    top: 0;
+    overflow: hidden;
+  }
+
+  .item img {
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+  }
+
+  .advertise{
+    margin-top: -52px;
+  }
+
+  .adv-text {
+    background: url(images/adv.jpg) no-repeat center;
+    background-size: cover;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    -ms-background-size: cover;
+    min-height: 260px;
+  }
+  
+  .counter-number {
+    background: #3a8f96;
+    padding: 7em 2em;
+  }
+  
+  .fashion-collet-txt h5 {
+    font-family: 'Oleo Script', cursive;
+
+    font-size: 3.5em;
+    font-weight: bold;
+    color: #fff;
+  }
+  
+  .fashion-collet-txt h6,
+  .newsletter h4 {
+    font-size: 34px;
+    color: #ff6ad1;
+    font-weight: 600;
+  } 
+
+  .content-serv{
+    padding-top: 30px;
+  }
